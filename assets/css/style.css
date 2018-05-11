@@ -1,0 +1,279 @@
+/*    Teal color (used for headings and backgrounds): #4aaaa5
+	Regular font color (used for paragraphs and all text besides the headings): #777777
+	Main header background color: #ffffff
+	Main header border color: #cccccc
+	Footer background color: #666666
+	Main content background color: #ffffff
+	Main content border color: #dddddd
+*/
+
+body
+{
+	color: #777777;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0;
+	background-repeat: none;
+	background-size: 1920px 1080px;
+	background-attachment: fixed;
+}
+
+img
+{
+	width: 225px;
+	height: 175px;
+	cursor: pointer;
+}
+
+.paragraphImage
+{
+	width: 175px;
+	height: 175px;
+	cursor: default;
+}
+
+a
+{
+	color: #999999;
+	text-decoration: none;
+	transition: color 250ms, border-bottom 250ms;
+	border-bottom: 1px solid #ffffff;
+}
+
+a:hover
+{
+	color: #4aaaa5;
+	text-decoration: none;
+	border-bottom: 1px solid #4aaaa5;
+}
+
+input
+{
+	width: 98.6%;
+	color: #777777;
+	line-height: 1.8em;
+	border: 1px solid #dddddd;
+	padding-top: 5px;
+	padding-bottom: 4px;
+	padding-left: 10px;
+}
+
+textarea
+{
+	width: 99%;
+	height: 195px;
+	font-size: 18px;
+	color: #777777;
+	line-height: 2em;
+	border: 1px solid #dddddd;
+	font-family: inherit;
+	resize: none;
+}
+	
+
+header
+{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 100%;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	height: 90px;
+	line-height: 90px;
+}
+
+header span:first-child
+{
+	display: block;
+	margin: 0 auto;
+	width: 960px;
+	height: 100%;
+}
+
+header span div
+{
+	padding-left: 35px; 
+	padding-right: 35px; 
+	height: 100%;
+	color: white;
+	background-color: #4aaaa5;
+	float: left;
+}
+
+header span div h1
+{
+	margin: 0 auto;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+header span nav
+{ 
+	margin-left: 250px;
+	width: 710px;
+	height: 100%;
+	text-align: right;
+	color: #cccccc;
+	font-size: 1.1em;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+header span nav span
+{
+	color: #eee;
+}
+
+main
+{
+	width: 100%;
+	padding-bottom: 47px;
+	background-color: rgba(255, 255, 255, 0);
+}
+
+
+main section
+{
+	margin: 38px auto;
+	background-color: #ffffff;
+	width: 958px;
+	border: 1px solid #dddddd;
+	height: auto;
+}
+
+main section h1
+{
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	margin-left: 27px;
+	margin-top: 39px;
+	font-size: 1.9em;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+main section hr
+{
+	border: 1.5px solid #dddddd;
+	margin-left: 30px;
+	margin-right: 30px;
+	margin-top: 8px;
+	margin-bottom: 20px;
+}
+
+main section p
+{
+	margin-left: 28px;
+	margin-right: 30px;
+	line-height: 2em;
+	margin-bottom: 8px;
+}
+
+
+main section p:nth-of-type(2)
+{
+	margin-top: -93px;
+}
+
+main section p:nth-of-type(3)
+{
+	margin-top: -93px;
+}
+
+main section form p
+{
+	color: #999999;
+	font-size: 18px;
+	line-height: 1.9em;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+main section form p:nth-of-type(2)
+{
+	margin-top: auto;
+}
+
+main section form p:nth-of-type(3)
+{
+	margin-top: auto;
+}
+
+main section p img:nth-of-type(2)
+{
+	margin-left: 27px;
+
+}
+
+main section p span
+{
+	display: block;
+	width: 225px;
+	height: 50px;
+	line-height: 50px;
+	background-color: #4aaaa5;
+	color: white;
+	text-align: center;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-size: 18px;
+	cursor: pointer;
+}
+
+main section p span:nth-of-type(1)
+{
+	position: relative;
+	top: -70px;
+}
+
+main section p span:nth-of-type(2)
+{
+	position: relative;
+	top: -120px;
+	left: 256px;
+}
+
+.paragraphImage
+{
+	float: left; 
+	margin-right: 20px;
+}
+
+main section button
+{
+	padding-left: 30px; 
+	padding-right: 30px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	margin-bottom: 30px;
+	color: white;
+	background-color: #4aaaa5;
+	font-size: 18px;
+	border: 0px;
+	display: block;
+	cursor: pointer;
+}
+
+main section button:hover
+{
+	background-color: #5bbbb6;
+}
+
+main section button:active
+{
+	padding-top: 12px;
+	padding-bottom: 8px;
+	background-color: #288883;
+}
+
+
+footer
+{
+	position: fixed;
+	bottom: -15px;
+	color: #ffffff;
+	background-color: #666666;
+	text-align: center;
+	font-size: 12px;
+	width: 100%;
+	height: 75px;
+	line-height: 95px;
+	border-top: 8px solid #4aaaa5;
+}
+
